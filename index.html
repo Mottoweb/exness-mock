@@ -59,7 +59,7 @@
                 <img src="assets/images/logo.svg" height="56" />
                 </div>
                 <div class="col-xs-6 text-right">
-                  <div class="row mini-menu-wrapper">
+                  <div class="row mini-menu-wrapper hidden-xs hidden-sm">
 
                     <div class="col-xs-3 col-xs-offset-6 text-right">
                       <span class="mini-menu">
@@ -88,75 +88,91 @@
         </div>
         <div class="row section-1">
           <div class="col-xs-12 inner-wrapper">
-            <div class="col-xs-6 left">
-              <span class="text-vertical">Для всех типов счетов</span>
+            <div class="col-md-6 col-xs-12 left">
+              <span class="text-vertical hidden-xs hidden-sm">Для всех типов счетов</span>
               <img src="assets/images/zero.svg" />
-              <span class="text-under">Коммиссия за переводы</span>
+              <span class="text-under hidden-xs hidden-sm">Коммиссия за переводы</span>
             </div>
-            <div class="col-xs-5 right">
+            <div class="col-md-5 col-xs-12 right">
               <h3>Выводя со счета форекс-брокера exness $1000, вы получаете на свой кошелек или банковский счет ровно  $1000.</h3>
             </div>
           </div>
         </div>
 
         <div class="row section-2">
-          <div class="row">
-            <div class="col-xs-12 section-2-header text-center">
-                <h4>Доступные платежные системы</h4>
-            </div>
-          </div>
-          <div class="row">
-            <div class="section-2-body-first-row">
-              <div class="col-xs-3 text-center">
-                <img src="assets/images/icon-ps-fp.png" />
-              </div>
-              <div class="col-xs-3 text-center">
-                <img src="assets/images/icon-ps-cash.png" />
-              </div>
-              <div class="col-xs-3 text-center">
-                <img src="assets/images/icon-ps-pm.png" />
-              </div>
-              <div class="col-xs-3 text-center">
-                <img src="assets/images/icon-ps-wm.png" />
+          <div class="section-2-inner-wrapper">
+            <div class="row">
+              <div class="col-xs-12 section-2-header text-center">
+                  <h4>Доступные платежные системы</h4>
               </div>
             </div>
-          </div>
-          <div class="row">
-            <div class="section-2-body-second-row">
-              <div class="col-xs-3 text-center">
-                <img src="assets/images/icon-ps-net.png" />
+            <div class="row hidden-sm hidden-xs">
+              <div class="section-2-body-first-row">
+                <div class="col-xs-3 text-center">
+                  <img src="assets/images/icon-ps-fp.png" />
+                </div>
+                <div class="col-xs-3 text-center">
+                  <img src="assets/images/icon-ps-cash.png" />
+                </div>
+                <div class="col-xs-3 text-center">
+                  <img src="assets/images/icon-ps-pm.png" />
+                </div>
+                <div class="col-xs-3 text-center">
+                  <img src="assets/images/icon-ps-wm.png" />
+                </div>
               </div>
-              <div class="col-xs-3 text-center">
-                <img src="assets/images/icon-ps-visa.png" />
+            </div>
+            <div class="row hidden-sm hidden-xs">
+              <div class="section-2-body-second-row">
+                <div class="col-xs-3 text-center">
+                  <img src="assets/images/icon-ps-net.png" />
+                </div>
+                <div class="col-xs-3 text-center">
+                  <img src="assets/images/icon-ps-visa.png" />
+                </div>
+                <div class="col-xs-3 text-center">
+                  <img src="assets/images/icon-ps-pw.png" />
+                </div>
+                <div class="col-xs-3 text-center">
+                  <img src="assets/images/icon-ps-uk.png" />
+                </div>
               </div>
-              <div class="col-xs-3 text-center">
-                <img src="assets/images/icon-ps-pw.png" />
+            </div>
+            <div class="row hidden-md hidden-lg">
+              <div class="section-2-body-sm-row">
+                <div class="col-xs-2 text-center">
+                  <img src="assets/images/Arrow@2x.png" class="flip180"/>
+                </div>
+                <div class="col-xs-8 text-center">
+                  <img src="assets/images/icon-ps-visa.png" />
+                </div>
+                <div class="col-xs-2 text-center">
+                  <img src="assets/images/Arrow@2x.png" />
+                </div>
               </div>
-              <div class="col-xs-3 text-center">
-                <img src="assets/images/icon-ps-uk.png" />
+            </div>
+
+            <div class="row">
+              <div class="section-2-body-third-row text-center">
+                <form class="form-inline">
+                  <div class="form-group hidden-sm hidden-xs">
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Мобильный Телефон">
+                  </div>
+                  <div class="form-group hidden-sm hidden-xs">
+                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Адрес электронной почты">
+                  </div>
+                  <button type="submit"><span class="btn-text">Открыть Счет</span><span class="btn-arrow pull-right"></span></button>
+                </form>
+                <div class="example-phone-text text-left hidden-xs hidden-sm">
+                  Пример: +7123123123
+                </div>
+                <div class="withdrawal-warning-text">
+                  По некоторым способобам <a href="#">ввода/вывода средств</a> действуют ограничения по размеру операции для осуществления транзакции без комиссии.
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="section-2-body-third-row text-center">
-              <form class="form-inline">
-                <div class="form-group">
-                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Мобильный Телефон">
-                </div>
-                <div class="form-group">
-                  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Адрес электронной почты">
-                </div>
-                <button type="submit"><span class="btn-text">Открыть Счет</span><span class="btn-arrow pull-right"></span></button>
-              </form>
-              <div class="example-phone-text text-left">
-                Пример: +7123123123
-              </div>
-              <div class="withdrawal-warning-text">
-                По некоторым способобам <a href="#">ввода/вывода средств</a> действуют ограничения по размеру операции для осуществления транзакции без комиссии.
-              </div>
-            </div>
-          </div>
 
      </div>
 
@@ -184,50 +200,50 @@
        </div>
       <div class="section-3-inner-wrapper">
          <div class="row section-3-grid-header">
-           <div class="col-xs-5ths">
+           <div class="col-md-5ths col-sm-3 col-xs-3">
              <a href="#" class="link-primary">О компании</a>
            </div>
-           <div class="col-xs-5ths">
+           <div class="col-md-5ths col-sm-3 col-xs-3">
              <a href="#" class="link-primary">Торговля</a>
            </div>
-           <div class="col-xs-5ths">
+           <div class="col-md-5ths col-sm-3 col-xs-3">
              <a href="#" class="link-primary">Инструменты</a>
            </div>
-           <div class="col-xs-5ths">
+           <div class="col-md-5ths hidden-sm hidden-xs">
 
            </div>
-           <div class="col-xs-5ths">
+           <div class="col-md-5ths col-sm-3 col-xs-3">
              <a href="#" class="link-primary">Партнерство</a>
            </div>
          </div>
-         <div class="section-3-grid-body">
+         <div class="section-3-grid-body hidden-sm hidden-xs">
            <div class="row">
-             <div class="col-xs-5ths">
+             <div class="col-md-5ths">
                <a href="#" class="link-secondary">Общие сведения</a>
                <a href="#" class="link-secondary">Почему EXNESS?</a>
                <a href="#" class="link-secondary">Менеджмент</a>
                <a href="#" class="link-secondary">Регуляция</a>
                <a href="#" class="link-secondary">Служба поддержки клиентов</a>
              </div>
-             <div class="col-xs-5ths">
+             <div class="col-md-5ths">
                <a href="#" class="link-secondary">Открыть торговый счет</a>
                <a href="#" class="link-secondary">Пополнения и снятие средств</a>
                <a href="#" class="link-secondary">Спецификация контрактов</a>
                <a href="#" class="link-secondary">Правила предоставления кредитного плеча</a>
              </div>
-             <div class="col-xs-5ths">
+             <div class="col-md-5ths">
                <a href="#" class="link-secondary">Meta Trader 4</a>
                <a href="#" class="link-secondary">Meta Trader 5</a>
                <a href="#" class="link-secondary">Webtrader</a>
                <a href="#" class="link-secondary">Мобильные платформы</a>
              </div>
-             <div class="col-xs-5ths">
+             <div class="col-md-5ths ">
               <a href="#" class="link-secondary">Экономический календарь</a>
               <a href="#" class="link-secondary">Аналитика</a>
               <a href="#" class="link-secondary">Калькулятор трейдера и конвертер валют</a>
               <a href="#" class="link-secondary">Загрузки</a>
              </div>
-             <div class="col-xs-5ths">
+             <div class="col-md-5ths">
                <a href="#" class="link-primary">Библиотека</a>
                <a href="#" class="link-primary">FAQ</a>
              </div>
@@ -238,7 +254,7 @@
          <div class="section-3-footer">
            <div class="row">
 
-             <div class="col-xs-8 footer-text">
+             <div class="col-md-8 col-sm-12 col-xs-12 footer-text">
                <p>
                  Сайт www.exness.eu находится в ведении компании Exness (CY) Ltd (регистрационный номер HE 293057).
   Компания Exness (CY) Ltd уполномочена и подконтрольна CySEC (Комиссии по ценным бумагам и биржам острова Кипр), лицензионный номер 178/12.
@@ -249,7 +265,7 @@
   © 2008—2016. Exness
                </p>
              </div>
-             <div class="col-xs-4 text-center">
+             <div class="col-md-4 text-center hidden-sm hidden-xs">
                <img src="assets/images/sysec.png" />
                <img src="assets/images/beliz.png" />
                <br />

@@ -1,3 +1,5 @@
+
+
 // Bootstrap
 @import 'bootstrap/bootstrap';
 
@@ -42,6 +44,7 @@
 .header {
   background-image: url("../assets/images/back_null_percents.jpg");
   min-height: 640px;
+  background-position: center;
 }
 
 .header-inner-wrapper {
@@ -138,8 +141,10 @@
         color: #000;
         line-height:  160%;
         position: relative;
-        right: 135px;
-        top: 15px;
+        right: -180px;
+        top: 0px;
+        display:block;
+
       }
     }
     .right {
@@ -155,12 +160,15 @@
 
 .section-2 {
   background-color: #fff;
-  padding: 50px 41px;
     .section-2-header h4 {
       font-family: 'Circe-Regular';
       font-size: 40px;
       color: #000;
       line-height: 120%;
+      }
+      .section-2-inner-wrapper {
+      margin: 50px 41px;
+      }
   }
   .section-2-body-first-row {
     margin: 50px 0px;
@@ -230,7 +238,6 @@
       padding: 14px 320px;
     }
   }
-}
 
 .section-3 {
   background-color: #232323;
@@ -281,6 +288,201 @@
     }
     img {
       margin-right: 20px;
+    }
+  }
+}
+
+//xs
+// @media (max-width: @screen-xs-max) {
+//     .header-heading-wrapper {
+//     h2 {
+//       font-size: 16px;
+//     }
+//   }
+// }
+
+//xs
+
+@media (min-width: @screen-xs) and (max-width: 480px) {
+  .header-heading-wrapper {
+    h2 {
+      font-size: 31px!important;
+    }
+
+    h4 {
+      font-size: 20px!important;
+    }
+    button {
+    width: 270px;
+}
+  }
+  .section-1 {
+    .inner-wrapper {
+      .right h3 {
+    font-size: 18px!important;
+      }
+}
+  }
+  .section-2 {
+    .section-2-body-sm-row {
+      .col-xs-2, .col-xs-8 {
+        padding-left: 0px;
+    padding-right: 0px;
+      }
+    }
+    .section-2-body-third-row button {
+
+    width: 270px;
+}
+  }
+  .section-3 {
+    .link-primary {
+      text-decoration: none!important;
+      font-size: 10px!important;
+    }
+  }
+}
+
+//sm and xs
+@media (min-width: @screen-xs) and (max-width: @screen-sm-max) {
+
+
+  .header-inner-wrapper {
+    margin: 24px 24px;
+  }
+  .header-heading-wrapper {
+    padding-top: 150px;
+    padding-right: 0px;
+    h2 {
+      font-size: 40px;
+    }
+
+    h4 {
+      font-size: 24px;
+    }
+  }
+  .section-1 {
+    .inner-wrapper {
+      margin: 0;
+      padding: 24px 24px;
+      .left {
+        text-align: center;
+        img {
+          position: relative;
+          right: 0px;
+          top: 30px;
+          width: 220px;
+          height: auto;
+
+        }
+      }
+      .right {
+        text-align: center;
+        padding-top: 40px;
+        h3 {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .section-2 {
+    .section-2-body-sm-row {
+      margin: 50px 0;
+      img.flip180 {
+        transform: rotate(180deg);
+      }
+    }
+    .section-2-body-third-row {
+      margin-top: 50px;
+      .withdrawal-warning-text{
+        padding: 25px 0px;
+      }
+    }
+  }
+  .section-3 {
+    .section-3-inner-wrapper{
+      margin: 24px 24px;
+      // margin: 0px;
+      .section-3-grid-header {
+        margin-left: 0px;
+        margin-right: 0px;
+      }
+    }
+    .link-primary {
+      text-decoration: none!important;
+    }
+    .col-md-5ths.hidden-sm.hidden-xs {
+      padding: 0px;
+      min-height: 0px;
+    }
+    .col-md-5ths.col-sm-3 {
+      padding-left: 5px;
+    padding-right: 5px;
+    }
+    .section-3-grid-header {
+      text-align: center;
+    }
+    .section-3-footer {
+      margin: 30px 0;
+      .footer-text {
+        text-align: center;
+      }
+    }
+  }
+}
+
+//md
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) {
+  .header-heading-wrapper {
+    h2 {
+      font-size: 46px;
+    }
+  }
+  .section-1 {
+    .inner-wrapper {
+      .left {
+        .text-vertical {
+          transform: rotate(-90deg) translate(-55%, 0);
+        }
+        img {
+          position: relative;
+          right: -80px;
+          top: -35px;
+        }
+        .text-under {
+          position: relative;
+          right: -120px;
+          top: 0px;
+        }
+      }
+      .right {
+        h3 {
+          font-size: 34px;
+        }
+      }
+    }
+  }
+  .section-2 {
+    .section-2-body-third-row {
+      .example-phone-text {
+        padding: 14px 32px;
+      }
+      .withdrawal-warning-text {
+        padding: 14px 150px;
+      }
+      input.form-control {
+    width: 300px;
+    height: 72px;
+}
+    }
+  }
+
+}
+//lg
+@media (min-width: @screen-lg-min) {
+  .header-heading-wrapper {
+    h2 {
+      font-size: 66px;
     }
   }
 }
