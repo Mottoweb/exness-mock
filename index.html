@@ -7,56 +7,11 @@
 <head>
 
     <meta charset="utf-8">
-    <!--
-                                     /$$               /$$
-                                    | $$              | $$
-      /$$$$$$$  /$$$$$$$  /$$$$$$  /$$$$$$    /$$$$$$$| $$$$$$$  /$$   /$$
-     /$$_____/ /$$_____/ /$$__  $$|_  $$_/   /$$_____/| $$__  $$| $$  | $$
-    |  $$$$$$ | $$      | $$  \ $$  | $$    | $$      | $$  \ $$| $$  | $$
-     \____  $$| $$      | $$  | $$  | $$ /$$| $$      | $$  | $$| $$  | $$
-     /$$$$$$$/|  $$$$$$$|  $$$$$$/  |  $$$$/|  $$$$$$$| $$  | $$|  $$$$$$$
-    |_______/  \_______/ \______/    \___/   \_______/|__/  |__/ \____  $$
-                                                                 /$$  | $$
-                                                                |  $$$$$$/
-                                                                 \______/
-                                     /$$               /$$
-                                    | $$              | $$
-      /$$$$$$$  /$$$$$$$  /$$$$$$  /$$$$$$    /$$$$$$$| $$$$$$$
-     /$$_____/ /$$_____/ /$$__  $$|_  $$_/   /$$_____/| $$__  $$
-    |  $$$$$$ | $$      | $$  \ $$  | $$    | $$      | $$  \ $$
-     \____  $$| $$      | $$  | $$  | $$ /$$| $$      | $$  | $$
-     /$$$$$$$/|  $$$$$$$|  $$$$$$/  |  $$$$/|  $$$$$$$| $$  | $$
-    |_______/  \_______/ \______/    \___/   \_______/|__/  |__/
-
-
-
-                                     /$$               /$$
-                                    | $$              | $$
-      /$$$$$$$  /$$$$$$$  /$$$$$$  /$$$$$$    /$$$$$$$| $$$$$$$
-     /$$_____/ /$$_____/ /$$__  $$|_  $$_/   /$$_____/| $$__  $$
-    |  $$$$$$ | $$      | $$  \ $$  | $$    | $$      | $$  \ $$
-     \____  $$| $$      | $$  | $$  | $$ /$$| $$      | $$  | $$
-     /$$$$$$$/|  $$$$$$$|  $$$$$$/  |  $$$$/|  $$$$$$$| $$  | $$
-    |_______/  \_______/ \______/    \___/   \_______/|__/  |__/
-    -->
-    <title>Gulp Starter with Less ♥ Scotch</title>
+    <title>Gulp Starter with Less</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta content="yes" name="apple-mobile-web-app-capable">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
-    <!-- ICONS - THANKS A LOT APPLE... -->
-    <link rel="shortcut icon" sizes="16x16 24x24 32x32 48x48 64x64" href="https://scotch.io/favicon.ico">
-    <link rel="apple-touch-icon" sizes="57x57" href="https://scotch.io/wp-content/themes/thirty/img/icons/favicon-57.png">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="https://scotch.io/wp-content/themes/thirty/img/icons/favicon-57.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="https://scotch.io/wp-content/themes/thirty/img/icons/favicon-72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="https://scotch.io/wp-content/themes/thirty/img/icons/favicon-114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="https://scotch.io/wp-content/themes/thirty/img/icons/favicon-120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="https://scotch.io/wp-content/themes/thirty/img/icons/favicon-144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="https://scotch.io/wp-content/themes/thirty/img/icons/favicon-152.png">
-    <meta name="application-name" content="Scotch Scotch scotch">
-    <meta name="msapplication-TileImage" content="https://scotch.io/wp-content/themes/thirty/img/icons/favicon-144.png">
-    <meta name="msapplication-TileColor" content="#2A2A2A">
 
     <!-- SEARCH -->
     <meta name="author" content="">
@@ -87,21 +42,233 @@
     <meta itemprop="image" content="">
 
     <!-- CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-hQpvDQiCJaD2H465dQfA717v7lu5qHWtDbWNPvaTJ0ID5xnPUlVXnKzq7b8YUkbN" crossorigin="anonymous">
     <link rel="stylesheet" href="build/style.css">
 
 </head>
 <body>
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-10 col-md-offset-1">
-                <h1>Less is more!</h1>
-                <p>Lorem ipsum dolor sit amet, <a href="#">consectetur adipisicing</a> elit. Nobis distinctio culpa incidunt eum nihil, quibusdam ex beatae eius quaerat voluptate officia cupiditate, est, aut dolorum eos libero! Aliquid, eligendi, totam?</p>
-            </div>
+
+        <div class="row header">
+
+          <div class="header-inner-wrapper">
+
+              <div class="row inner-header-top">
+                <div class="col-xs-6">
+                <img src="/assets/images/logo.svg" height="56" />
+                </div>
+                <div class="col-xs-6 text-right">
+                  <div class="row mini-menu-wrapper">
+
+                    <div class="col-xs-3 col-xs-offset-6 text-right">
+                      <span class="mini-menu">
+                      <a href="#" class="lang">Русский</a>
+                    </div>
+                    <div class="col-xs-3 text-right">
+                      <span class="exness">сайт exness</span>
+                    </div>
+
+                  </div>
+
+                </span>
+                </div>
+              </div>
+
+              <div class="header-heading-wrapper">
+                <h2>Подлинная свобода распоряжения своими средствами на Форекс</h2>
+                <h4>Пополняйте счет и выводите прибыль без комиссии</h4>
+                <div class="button-wrapper">
+                  <button><span class="btn-text">пополнить счет</span><span class="btn-arrow pull-right"></span></button>
+                </div>
+              </div>
+
+
+          </div>
         </div>
-    </div>
+        <div class="row section-1">
+          <div class="col-xs-12 inner-wrapper">
+            <div class="col-xs-6 left">
+              <span class="text-vertical">Для всех типов счетов</span>
+              <img src="/assets/images/zero.svg" />
+              <span class="text-under">Коммиссия за переводы</span>
+            </div>
+            <div class="col-xs-5 right">
+              <h3>Выводя со счета форекс-брокера exness $1000, вы получаете на свой кошелек или банковский счет ровно  $1000.</h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="row section-2">
+          <div class="row">
+            <div class="col-xs-12 section-2-header text-center">
+                <h4>Доступные платежные системы</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="section-2-body-first-row">
+              <div class="col-xs-3 text-center">
+                <img src="/assets/images/icon-ps-fp.png" />
+              </div>
+              <div class="col-xs-3 text-center">
+                <img src="/assets/images/icon-ps-cash.png" />
+              </div>
+              <div class="col-xs-3 text-center">
+                <img src="/assets/images/icon-ps-pm.png" />
+              </div>
+              <div class="col-xs-3 text-center">
+                <img src="/assets/images/icon-ps-wm.png" />
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="section-2-body-second-row">
+              <div class="col-xs-3 text-center">
+                <img src="/assets/images/icon-ps-net.png" />
+              </div>
+              <div class="col-xs-3 text-center">
+                <img src="/assets/images/icon-ps-visa.png" />
+              </div>
+              <div class="col-xs-3 text-center">
+                <img src="/assets/images/icon-ps-pw.png" />
+              </div>
+              <div class="col-xs-3 text-center">
+                <img src="/assets/images/icon-ps-uk.png" />
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="section-2-body-third-row text-center">
+              <form class="form-inline">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="exampleInputName2" placeholder="Мобильный Телефон">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Адрес электронной почты">
+                </div>
+                <button type="submit"><span class="btn-text">Открыть Счет</span><span class="btn-arrow pull-right"></span></button>
+              </form>
+              <div class="example-phone-text text-left">
+                Пример: +7123123123
+              </div>
+              <div class="withdrawal-warning-text">
+                По некоторым способобам <a href="#">ввода/вывода средств</a> действуют ограничения по размеру операции для осуществления транзакции без комиссии.
+              </div>
+            </div>
+          </div>
+
+     </div>
+
+     <div class="row section-3">
+       <div class="section-3-icons-wrapper">
+         <div class="section-3-icons">
+           <div class="row">
+             <div class="col-xs-12 text-center icons-container">
+               <a href="#"><img src="/assets/images/VK@2x.png" srcset="/assets/images/VK@2x@2x.png"></a>
+               <a href="#"><img src="/assets/images/Ok@2x.png" srcset="/assets/images/Ok@2x@2x.png"></a>
+               <a href="#"><img src="/assets/images/Twitter@2x.png" srcset="/assets/images/Twitter@2x@2x.png"></a>
+               <a href="#"><img src="/assets/images/Facebook@2x.png" srcset="/assets/images/Facebook@2x@2x.png"></a>
+               <a href="#"><img src="/assets/images/Youtube@2x.png" srcset="/assets/images/Youtube@2x@2x.png"></a>
+               <a href="#"><img src="/assets/images/LinkedIn@2x.png" srcset="/assets/images/LinkedIn@2x@2x.png"></a>
+               <a href="#"><img src="/assets/images/Ksin@2x.png" srcset="/assets/images/Ksin@2x@2x.png"></a>
+               <a href="#"><img src="/assets/images/Instagram@2x.png" srcset="/assets/images/Instagram@2x@2x.png"></a>
+               <a href="#"><img src="/assets/images/Google@2x.png" srcset="/assets/images/Google@2x@2x.png"></a>
+
+             </div>
+           </div>
+
+
+
+         </div>
+       </div>
+      <div class="section-3-inner-wrapper">
+         <div class="row section-3-grid-header">
+           <div class="col-xs-5ths">
+             <a href="#" class="link-primary">О компании</a>
+           </div>
+           <div class="col-xs-5ths">
+             <a href="#" class="link-primary">Торговля</a>
+           </div>
+           <div class="col-xs-5ths">
+             <a href="#" class="link-primary">Инструменты</a>
+           </div>
+           <div class="col-xs-5ths">
+
+           </div>
+           <div class="col-xs-5ths">
+             <a href="#" class="link-primary">Партнерство</a>
+           </div>
+         </div>
+         <div class="section-3-grid-body">
+           <div class="row">
+             <div class="col-xs-5ths">
+               <a href="#" class="link-secondary">Общие сведения</a>
+               <a href="#" class="link-secondary">Почему EXNESS?</a>
+               <a href="#" class="link-secondary">Менеджмент</a>
+               <a href="#" class="link-secondary">Регуляция</a>
+               <a href="#" class="link-secondary">Служба поддержки клиентов</a>
+             </div>
+             <div class="col-xs-5ths">
+               <a href="#" class="link-secondary">Открыть торговый счет</a>
+               <a href="#" class="link-secondary">Пополнения и снятие средств</a>
+               <a href="#" class="link-secondary">Спецификация контрактов</a>
+               <a href="#" class="link-secondary">Правила предоставления кредитного плеча</a>
+             </div>
+             <div class="col-xs-5ths">
+               <a href="#" class="link-secondary">Meta Trader 4</a>
+               <a href="#" class="link-secondary">Meta Trader 5</a>
+               <a href="#" class="link-secondary">Webtrader</a>
+               <a href="#" class="link-secondary">Мобильные платформы</a>
+             </div>
+             <div class="col-xs-5ths">
+              <a href="#" class="link-secondary">Экономический календарь</a>
+              <a href="#" class="link-secondary">Аналитика</a>
+              <a href="#" class="link-secondary">Калькулятор трейдера и конвертер валют</a>
+              <a href="#" class="link-secondary">Загрузки</a>
+             </div>
+             <div class="col-xs-5ths">
+               <a href="#" class="link-primary">Библиотека</a>
+               <a href="#" class="link-primary">FAQ</a>
+             </div>
+           </div>
+
+         </div>
+
+         <div class="section-3-footer">
+           <div class="row">
+
+             <div class="col-xs-8 footer-text">
+               <p>
+                 Сайт www.exness.eu находится в ведении компании Exness (CY) Ltd (регистрационный номер HE 293057).
+  Компания Exness (CY) Ltd уполномочена и подконтрольна CySEC (Комиссии по ценным бумагам и биржам острова Кипр), лицензионный номер 178/12.
+               </p>
+               <p>
+                 Информация на этом сайте может быть скопирована только с письменного разрешения Exness.
+  СFD являются продуктами маржинальной торговли, соответственно, убытки, понесенные в процессе торговли CFD, могут превысить начальный инвестированный капитал. Торговля CFD сопряжена с высоким уровнем риска и может не подходить для всех инвесторов. Инвестиционная стоимость может, как увеличиваться, так и уменьшаться, и инвесторы могут потерять все свои вложенные средства. Компания ни при каких обстоятельствах не несет ответственности перед физическими или юридическими лицами за любые убытки или ущерб целиком или частично вызванные, являющиеся результатом, или имеющие отношение к любым операциям, связанным с CFD. Подробнее
+  © 2008—2016. Exness
+               </p>
+             </div>
+             <div class="col-xs-4 text-center">
+               <img src="/assets/images/sysec.png" />
+               <img src="/assets/images/beliz.png" />
+               <br />
+               <br />
+               <img src="/assets/images/icon-nqa.png" />
+               <img src="/assets/images/icon-sm.png" />
+               <img src="/assets/images/cascade.png" />
+             </div>
+           </div>
+
+         </div>
+       </div>
+
+
+     </div>
+   </div>
 
     <!-- Scripts -->
+    <script src="//localhost:35729/livereload.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="build/jquery.plugins.min.js"></script>
     <script src="build/scripts.min.js"></script>
