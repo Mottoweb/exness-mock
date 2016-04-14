@@ -3,8 +3,6 @@
 
 ## How To Use
 
-    $ git clone git@github.com:scotch-io/gulp-and-less-starter-kit.git
-    $ cd gulp-and-less-starter-kit
     $ npm install
 
 After, run
